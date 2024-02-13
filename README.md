@@ -1,5 +1,5 @@
 ## React Redux
-  1. @reduxjs/toolkit : configureStore() , createSlice()
+  1. @reduxjs/toolkit : configureStore() , createSlice() , nanoid()
   2. react-redux : useDispatch() , useSelector()
 
 * `configureStore()` : creates Redux Store
