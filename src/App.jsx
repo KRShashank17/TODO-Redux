@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import './App.css'
 
+import AddTodo from './components/addTodo'
+import Todos from './components/Todos'
+
 function App() {
 
   return (
     <>
-      <div className="bg-blue-950 text-white text-2xl font-bold text-center h-screen flex justify-center items-center">
-      
-        <h2 className="font-bold text-center h-screen justify-center items-center">
-        HELLO
-        </h2>
-
-      </div>
+      <h1 className='text-white text-2xl font-bold'>Manage Todos</h1>
+      <AddTodo />
+      <Todos />
     </>
   )
 }
